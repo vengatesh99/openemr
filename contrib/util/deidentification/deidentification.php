@@ -1,7 +1,7 @@
 <?php
 
 /*   This script is for de-identifying an OpenEMR database for the purpose of creating a live demo or for
-    development using real data but keepinng patient identities a secret.  The script does the following
+development using real data but keepinng patient identities a secret.  The script does the following
 
         * removing patient information from the patient_data table and replacing patient demographics with a randomly generated name
         * replacing data stored in the the insurance_data table with the random generated name

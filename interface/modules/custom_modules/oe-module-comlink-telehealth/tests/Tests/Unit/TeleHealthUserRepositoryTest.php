@@ -30,7 +30,7 @@ class TeleHealthUserRepositoryTest extends TestCase
     }
 
     public function testSaveUserWithEmptyUsernameThrowsException()
-    {
+    {   
         $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage("username cannot be empty");
 
